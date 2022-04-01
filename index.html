@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevShop </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo" src="./img/logo" alt="Logo DevShop">
+           
+            <nav id="menu">
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Itens</li></a>
+                    <a href="#footer"><li>Sobre nós</li></a>
+                    <a href="#abrirModal"><li>Login</li></a>
+                </ul>  
+                <input type="search" class="search" placeholder="Procurando algo?">  
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container-banner">
+            <div class="titulo">
+                <h1>DevShop</h1> 
+                <h2>A loja essencial de todos os devs!!</h2> 
+            </div>
+
+                    <a href="#abrirModal">Cadastre-se</a>
+
+            <div id="abrirModal" class="modal"> 
+                <a href="#fechar" title="fechar" class="fechar">x</a>
+
+                <h2>Cadastre-se já e aproveite as melhores ofertas!!</h2>
+                <form action="#botao">
+
+                    <label for="nome">Nome</label>  
+                    <div class="input">
+                        <input type="text" name="nome" id="nome" required>
+                    </div> 
+                    
+                    <label for="email">Email</label>
+                    <div class="input">     
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <label for="senha">Senha</label>
+                    <div class="input"> 
+                        <input type="password" name="senha"  id="senha" required>
+                    </div>
+
+                    <input class="botao" type="submit" value="Cadastrar">
+                </form>
+           </div>
+        </section>
+    </main>
+    <footer>
+       
+    </footer>
+</body>
+</html>
