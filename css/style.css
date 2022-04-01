@@ -182,10 +182,58 @@ main{
     background: linear-gradient(to right, #e15f41,#e77f67) ;
 }
 
-.rodape{
-    margin-top: 0 auto ;
+.rodape-container{
+    background: #171717;
+    bottom: 0;
     width: 100%;
-    height: 40px;
-    background-color: #302f2f;
+    height: 45vh;
+    position: absolute;
 }
+
+.rodape{
+    display: flex;
+    align-items: center;
+}
+
+.card-aluno{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 200px;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-aluno h2{
+    text-align: center;
+}
+
+.card-aluno h3{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+.logo-contato{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 10px;
+    align-items: center;
+}
+
+#direitos-autorais{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
 
