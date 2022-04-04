@@ -9,6 +9,8 @@
 
 body{
     background: linear-gradient(45deg, #f19066, #f3a683 );
+    display: flex;
+    flex-direction: column;
 }
 
 #botao-menu{
@@ -104,7 +106,7 @@ label:hover {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    margin: 10px auto;
+    margin: 40px auto;
     padding: 5px;
     border: solid 1px #7c7c7c;
     border-radius: 5px;
@@ -133,11 +135,11 @@ label:hover {
     width: 500%;
     animation-name: animacao;
     animation-duration: 15s;
-    animation-iteration-count: infinite;
+    animation-iteration-count:infinite;
 }
 
 .fotos .produto img {
-    width: 19.9%;
+    width: 435px;
     height: 100%;
 }
 
@@ -250,6 +252,7 @@ a {
     background: #171717;
     bottom: 0;
     width: 100%;
+    position:absolute;
 }
 
 .rodape{
@@ -268,7 +271,6 @@ a {
     height: auto;
     color: white;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .card-aluno h2{
@@ -278,6 +280,7 @@ a {
 .card-aluno h3{
     font-size: 15px;
     font-weight: 200;
+    text-align: center;
 }
 
 
@@ -395,7 +398,7 @@ a {
     .fotos {
         padding: 0;
         margin: 0;
-        width: 200px;
+        width: 250px;
         height: 216px;
     }
     
