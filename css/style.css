@@ -113,7 +113,7 @@ main{
 .mensagem{
     border: 20px;
     width: 272px;
-    animation: digitando 4s steps(25), blink .4s infinite alternate;
+    animation: digitando 4s steps(25), blink .6s infinite alternate;
     margin-bottom: 20px;
     white-space: nowrap;
     overflow: hidden;
