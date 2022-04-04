@@ -350,6 +350,25 @@ main{
     padding: 10px;
 }
 
+@media (max-width: 770px) {
+
+    .modal {
+        zoom: 0.55;
+
+    }
+
+
+    .lista-produtos img{
+        height: 250px;
+
+    }
+
+    .lista-produtos {
+        width: 250px;
+    }
+
+
+    
 
 @media (max-width: 430px) {
 
