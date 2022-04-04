@@ -117,9 +117,36 @@ main{
     font-size: 50px;
 }
 
-.conteudo-banner h2{
+.conteudo-banner {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
     font-weight: 300;
     margin-bottom: 25px;
+}
+
+.mensagem{
+    border: 20px;
+    width: 272px;
+    animation: digitando 4s steps(25), blink .6s infinite alternate;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+
+@keyframes digitando{
+    from{
+        width: 0px;
+    }
+}
+
+@keyframes blink{
+    45%{
+        border: #797878;
+    }
 }
 
 #botao-cadastrar{

@@ -104,7 +104,7 @@ label:hover {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 200px;
+    margin: 10px auto;
     padding: 5px;
     border: solid 1px #7c7c7c;
     border-radius: 5px;
@@ -246,6 +246,56 @@ a {
     color: blue;
 }
 
+.rodape-container{
+    background: #171717;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+}
+
+.card-aluno{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-aluno h2{
+    text-align: center;
+}
+
+.card-aluno h3{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+.logo-contato{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    gap: 10px;
+    align-items: center;
+}
+
+#direitos-autorais{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}
 
 
 @media (max-width: 330px) {
@@ -349,7 +399,21 @@ a {
         height: 216px;
     }
     
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
     
+
+    .card-aluno{
+        font-size: 15px;
+    }
+
+    .card-aluno h3{
+        font-size: 10px;
+    }
 
 }
 
