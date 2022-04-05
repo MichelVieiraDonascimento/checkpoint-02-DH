@@ -8,8 +8,9 @@
 }
 
 body{
-    background: linear-gradient(45deg, #f19066, #f3a683 );
+    background-color: rgb(196, 196, 196);
 }
+
 
 #botao-menu{
     display: none;
@@ -116,7 +117,7 @@ label:hover {
 .fotos {
     
     padding: 20px;
-    width: 460px;
+    width: 400px;
     height: 460px;
     background-color: rgb(255, 255, 255);
     overflow: hidden;

@@ -296,6 +296,7 @@ main{
 
 .lista-produtos {
     width: 400px;
+    height: 560px;
     margin: 30px;
     background-color: white;
     border: solid 2px rgb(189, 189, 189) ;
@@ -380,6 +381,7 @@ main{
 
     .lista-produtos {
         width: 250px;
+        height: 450px;
     }
 
 
@@ -488,6 +490,7 @@ main{
 
     .lista-produtos {
         width: 320px;
+        height: 500px;
     }
 
 
@@ -612,6 +615,7 @@ main{
 
     .lista-produtos {
         width: 320px;
+        height: 500px;
     }
 
 
@@ -735,6 +739,7 @@ main{
 
     .lista-produtos {
         width: 250px;
+        height: 450px;
     }
 
 
