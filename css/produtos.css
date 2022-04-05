@@ -117,9 +117,13 @@ body {
 }
 
 .dark-mode {
+    background-color: rgb(39, 39, 39);
+  }
+.dark-mode div {
     background-color: black;
     color: white;
   }
+
 
 .botao-dark-mode button{
     border-radius: 10px;
