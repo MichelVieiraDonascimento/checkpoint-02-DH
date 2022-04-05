@@ -112,11 +112,28 @@ body {
 
 
 .input label {
-
     color: white;
     font-size: 1rem;
     border: 10px;
+}
 
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.botao-dark-mode button{
+    border-radius: 10px;
+    text-align: center;
+    width: 85px;
+    border: none;
+    background-color: white;
+    margin: 10px;
+}
+
+.botao-dark-mode:hover button{
+    background-color:black;
+    color: white;
 }
 
 .botao {
@@ -820,3 +837,4 @@ a {
     .card-aluno h3 {
         font-size: 10px;
     }
+}
