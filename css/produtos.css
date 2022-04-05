@@ -11,6 +11,131 @@ body{
     background-color: rgb(196, 196, 196);
 }
 
+.conteudo-banner {
+    position: absolute;
+    display: flex;
+    margin: 30px 255px;
+}
+
+#botao-cadastrar{
+    background-color: white;
+    border: none;
+    padding: 5px;
+    width: 150px;
+    border-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    transition: width 1s;
+}
+
+#botao-cadastrar:hover{
+    background-color: #797878;
+    width: 200px;
+}
+
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: auto;
+    flex-direction: column;
+    position: fixed; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    color: white;
+    opacity: 0;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modal h2{
+    padding: 10px;
+}
+  
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -10px;
+    top: -15px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+}
+
+.modal form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input input{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+    opacity: 1;
+    outline: none;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.input input:focus{
+    background-color: #fff;
+}
+
+
+.input label{
+    
+    color: white;
+    font-size: 1rem;
+    border: 10px;
+    
+}
+
+.botao{
+    background: linear-gradient(to left, #e15f41,#e77f67) ;
+    width: 150px;
+    margin: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.botao:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #e15f41,#e77f67) ;
+}
+
+
 
 #botao-menu{
     display: none;
@@ -21,7 +146,7 @@ body{
     position: absolute;
 }
 
-label {
+.head label {
     padding: 5px;
     background-color: #302f2f;
     color: rgb(255, 255, 255);
@@ -34,7 +159,7 @@ label {
 
 }
 
-label:hover {
+.head label:hover {
     position: relative;
 }
 
@@ -304,6 +429,17 @@ a {
 
 
 @media (max-width: 430px) {
+    
+    .conteudo-banner {
+        margin: 100px 80px;
+    }
+
+    .modal {
+        zoom: 0.55;
+
+    }
+
+
     header{
         position: absolute;
         position: fixed;
@@ -319,7 +455,7 @@ a {
         margin-top: 10px;
     }
     
-    label {
+    .head label {
         display: block;
         z-index: 220;
     
@@ -357,6 +493,7 @@ a {
 
     .search {
         zoom: 80%;
+        left: 6px;
     }
     
     .search:focus{
@@ -424,6 +561,16 @@ a {
 
 
 @media (max-width: 380px) {
+
+    .conteudo-banner {
+        margin: 100px 55px;
+    }
+
+    .modal {
+        zoom: 0.55;
+
+    }
+
     header{
         position: absolute;
         position: fixed;
@@ -439,7 +586,7 @@ a {
         margin-top: 10px;
     }
     
-    label {
+    .head label {
         display: block;
         z-index: 220;
     
@@ -477,6 +624,7 @@ a {
 
     .search {
         zoom: 80%;
+        left: 5px;
     }
     
     .search:focus{
@@ -543,6 +691,15 @@ a {
 }
 
 @media (max-width: 330px) {
+    .conteudo-banner {
+        margin: 50px 28px;
+    }
+
+    .modal {
+        zoom: 0.55;
+
+    }
+
     header{
         position: absolute;
         position: fixed;
@@ -558,7 +715,7 @@ a {
         margin-top: 10px;
     }
     
-    label {
+    .head label {
         display: block;
         z-index: 220;
     
@@ -596,6 +753,7 @@ a {
 
     .search {
         zoom: 80%;
+        left: 4px;
     }
     
     .search:focus{

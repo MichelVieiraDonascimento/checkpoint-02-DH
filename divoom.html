@@ -12,24 +12,50 @@
 
 <body>
     <header>
-        <input type="checkbox" id="botao-menu">
-        <label for="botao-menu">&#9776;</label>
-        
-        <div class="cabecalho">
-            <img class="logo" src="./img/logo" alt="Logo DevShop">
-            <nav id="menu" class="menu-top">
-                <ul>
-                    <a href="./index.html" class="home"><li>Home</li></a>
-                    <a href="http://127.0.0.1:5501/index.html#produtos-itens" class="itens"><li>Itens</li></a>
-                    <a href="#footer" class="sobre"><li>Sobre nós</li></a>
-                    <a href="#" class="login"><li>Login</li></a>
-                </ul>  
-                <input type="search" class="search" placeholder="Procurando algo?">  
-                <div class="botao-dark-mode"><input type="checkbox" onclick="darkMode()"> Dark Mode</input></div>
-            </nav>
-        </div>
+        <section class="head">
+            <input type="checkbox" id="botao-menu">
+            <label for="botao-menu">&#9776;</label>
+            
+            <div class="cabecalho">
+                <img class="logo" src="./img/logo" alt="Logo DevShop">
+                <nav id="menu" class="menu-top">
+                    <ul>
+                        <a href="./index.html" class="home"><li>Home</li></a>
+                        <a href="http://127.0.0.1:5501/index.html#produtos-itens" class="itens"><li>Itens</li></a>
+                        <a href="#footer" class="sobre"><li>Sobre nós</li></a>
+                        <a href="#" class="login"><li>Login</li></a>
+                    </ul>  
+                    <input type="search" class="search" placeholder="Procurando algo?">  
+                    <div class="botao-dark-mode"><input type="checkbox" onclick="darkMode()"> Dark Mode</input></div>
+                </nav>
+            </div>
+        </section>
     </header>
     <main>
+        <section class="conteudo-banner">
+            <div id="abrirModal" class="modal">
+                <a href="#fechar" title="fechar" class="fechar">x</a>
+
+                <h2>Cadastre-se já e aproveite as melhores ofertas!!</h2>
+                <form action="#botao">
+
+                    <label for="nome">Nome</label>
+                    <div class="input">
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+
+                    <label for="email">Email</label>
+                    <div class="input">
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <label for="senha">Senha</label>
+                    <div class="input">
+                        <input type="password" name="senha" id="senha" required>
+                    </div>
+
+                    <input class="botao" type="submit" value="Cadastrar">
+                </form>
         <div class="container-produto" id="produtos-itens">
             <section class="fotos">
             <div class="produto">
