@@ -10,8 +10,21 @@
 }
 
 body{
-    background: linear-gradient(55deg, #bdc3c7, #ecf0f1 );
+    background-color: white;
     height: 100vh;
+    color: black;
+}  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.botao-dark-mode{
+    color: white;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding-right: 20px;
 }
 
 #botao-menu{
@@ -67,6 +80,8 @@ label {
     outline: none;
     cursor: auto;
 }
+
+
 
 #menu{
     display: flex;
