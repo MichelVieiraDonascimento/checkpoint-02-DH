@@ -14,7 +14,6 @@ body {
 .conteudo-banner {
     position: absolute;
     display: flex;
-    margin: 30px 255px;
 }
 
 #botao-cadastrar {
@@ -820,3 +819,4 @@ a {
     .card-aluno h3 {
         font-size: 10px;
     }
+}
