@@ -126,6 +126,8 @@ main{
 
 .container-banner {
     background-image:url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +136,6 @@ main{
     height: 90vh;
     color: white;
     background-size: cover;
-    background-attachment:scroll;
 }
 
 .conteudo-banner h1{
