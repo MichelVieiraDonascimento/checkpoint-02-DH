@@ -14,7 +14,6 @@ body {
 .conteudo-banner {
     position: absolute;
     display: flex;
-    margin: 30px 255px;
 }
 
 #botao-cadastrar {
