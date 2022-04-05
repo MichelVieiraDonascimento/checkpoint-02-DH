@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
     background-color: rgb(196, 196, 196);
 }
 
@@ -17,7 +17,7 @@ body{
     margin: 30px 255px;
 }
 
-#botao-cadastrar{
+#botao-cadastrar {
     background-color: white;
     border: none;
     padding: 5px;
@@ -29,7 +29,7 @@ body{
     transition: width 1s;
 }
 
-#botao-cadastrar:hover{
+#botao-cadastrar:hover {
     background-color: #797878;
     width: 200px;
 }
@@ -42,7 +42,7 @@ body{
     width: 30rem;
     height: auto;
     flex-direction: column;
-    position: fixed; 
+    position: fixed;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1;
@@ -55,10 +55,11 @@ body{
     transition: opacity 400ms ease-in;
     pointer-events: none;
 }
-.modal h2{
+
+.modal h2 {
     padding: 10px;
 }
-  
+
 .modal:target {
     opacity: 1;
     pointer-events: auto;
@@ -80,7 +81,7 @@ body{
     color: #8d0000;
 }
 
-.modal form{
+.modal form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,10 +89,10 @@ body{
     padding: 10px;
 }
 
-.input input{
+.input input {
     display: flex;
     align-items: center;
-    justify-content:center ;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 15px;
@@ -102,24 +103,24 @@ body{
     opacity: 1;
     outline: none;
     color: rgba(0, 0, 0, 0.7);
-    
+
 }
 
-.input input:focus{
+.input input:focus {
     background-color: #fff;
 }
 
 
-.input label{
-    
+.input label {
+
     color: white;
     font-size: 1rem;
     border: 10px;
-    
+
 }
 
-.botao{
-    background: linear-gradient(to left, #e15f41,#e77f67) ;
+.botao {
+    background: linear-gradient(to left, #e15f41, #e77f67);
     width: 150px;
     margin: 20px;
     cursor: pointer;
@@ -130,14 +131,14 @@ body{
     transition: all 0.5s ease;
 }
 
-.botao:hover{
+.botao:hover {
     letter-spacing: 0.5px;
-    background: linear-gradient(to right, #e15f41,#e77f67) ;
+    background: linear-gradient(to right, #e15f41, #e77f67);
 }
 
 
 
-#botao-menu{
+#botao-menu {
     display: none;
 }
 
@@ -164,7 +165,7 @@ body{
 }
 
 
-.cabecalho{
+.cabecalho {
     background-color: #302f2f;
     width: 100%;
     height: 100px;
@@ -173,12 +174,12 @@ body{
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     width: 130px;
     padding-left: 30px;
 }
 
-.search{
+.search {
     margin-right: 20px;
     opacity: 0.5;
     border: none;
@@ -192,7 +193,7 @@ body{
     transition-duration: 300ms;
 }
 
-.search:focus{
+.search:focus {
     width: 240px;
     opacity: 1;
     border-radius: 4px;
@@ -201,26 +202,26 @@ body{
     cursor: auto;
 }
 
-#menu{
+#menu {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#menu ul{
+#menu ul {
     list-style: none;
 }
 
-#menu ul li{
-   display: inline;
-   padding-right: 3vh;
+#menu ul li {
+    display: inline;
+    padding-right: 3vh;
 }
 
-#menu ul li a{
+#menu ul li a {
     display: inline-block;
 }
 
-#menu a{
+#menu a {
     color: white;
     font-size: 20px;
     font-weight: 600;
@@ -235,12 +236,12 @@ body{
     border: solid 1px #7c7c7c;
     border-radius: 5px;
     justify-content: space-around;
-    width:90%;
+    width: 90%;
 
 }
 
 .fotos {
-    
+
     padding: 20px;
     width: 400px;
     height: 460px;
@@ -251,7 +252,7 @@ body{
 .produto {
     display: flex;
     align-items: center;
-    
+
 }
 
 
@@ -268,15 +269,41 @@ body{
 }
 
 @keyframes animacao {
-    0% { margin-left: 0;}
-    20% { margin-left: 0;}
-    25% { margin-left: -100%;}
-    45% { margin-left: -100%;}
-    50% { margin-left: -200%;}
-    70% { margin-left: -200%;}
-    75% { margin-left: -300%;}
-    95% { margin-left: -300%;}
-    100% { margin-left: -400%;}
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    95% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -400%;
+    }
 }
 
 
@@ -288,7 +315,7 @@ body{
     width: 400px;
 }
 
-.estado  {
+.estado {
     margin-top: 10px;
 }
 
@@ -334,7 +361,7 @@ body{
     height: 30px;
 }
 
-.botoes-comprar button{
+.botoes-comprar button {
     color: white;
     background-color: rgb(252, 77, 38);
     padding: 10px;
@@ -372,18 +399,18 @@ a {
     color: blue;
 }
 
-.rodape-container{
+.rodape-container {
     background: #171717;
     bottom: 0;
     width: 100%;
 }
 
-.rodape{
+.rodape {
     display: flex;
     align-items: center;
 }
 
-.card-aluno{
+.card-aluno {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -397,17 +424,17 @@ a {
     flex-wrap: wrap;
 }
 
-.card-aluno h2{
+.card-aluno h2 {
     text-align: center;
 }
 
-.card-aluno h3{
+.card-aluno h3 {
     font-size: 15px;
     font-weight: 200;
 }
 
 
-.logo-contato{
+.logo-contato {
     display: flex;
     justify-content: center;
     padding-top: 15px;
@@ -415,7 +442,7 @@ a {
     align-items: center;
 }
 
-#direitos-autorais{
+#direitos-autorais {
     display: flex;
     justify-content: center;
     color: white;
@@ -429,7 +456,7 @@ a {
 
 
 @media (max-width: 430px) {
-    
+
     .conteudo-banner {
         margin: 100px 80px;
     }
@@ -440,10 +467,10 @@ a {
     }
 
 
-    header{
+    header {
         position: absolute;
         position: fixed;
-        
+
 
     }
 
@@ -454,14 +481,14 @@ a {
     MAIN {
         margin-top: 10px;
     }
-    
+
     .head label {
         display: block;
         z-index: 220;
-    
+
     }
 
-    #botao-menu:checked ~ .cabecalho{
+    #botao-menu:checked~.cabecalho {
         margin-left: 0%;
     }
 
@@ -473,8 +500,8 @@ a {
         height: 350px;
         width: 155px;
         display: flex;
-            
-        
+
+
     }
 
     .logo {
@@ -484,22 +511,21 @@ a {
         top: -0%;
     }
 
-    .cabecalho input { 
+    .cabecalho input {
         position: absolute;
         margin-top: -222px;
         margin-left: 69px;
-
     }
 
     .search {
         zoom: 80%;
         left: 6px;
     }
-    
-    .search:focus{
+
+    .search:focus {
         margin-top: -140px;
         width: 190px;
-        
+
     }
 
     #menu {
@@ -510,17 +536,15 @@ a {
         display: block;
     }
 
-    ul{
+    ul {
         margin-top: 80px;
         margin-left: 10px;
         display: grid;
         gap: 20px;
     }
 
-
-
     .container-produto {
-        
+
         background-color: rgb(255, 255, 255);
         display: flex;
         flex-wrap: wrap;
@@ -530,9 +554,8 @@ a {
         border-radius: 5px;
         justify-content: space-around;
         width: 380px;
-    
-    }
 
+    }
 
     .fotos {
         padding: 0;
@@ -540,25 +563,22 @@ a {
         width: 300px;
         height: 316px;
     }
-    
+
     .rodape {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
     }
 
-    
-
-    .card-aluno{
+    .card-aluno {
         font-size: 15px;
     }
 
-    .card-aluno h3{
+    .card-aluno h3 {
         font-size: 10px;
     }
 
 }
-
 
 @media (max-width: 380px) {
 
@@ -568,14 +588,11 @@ a {
 
     .modal {
         zoom: 0.55;
-
     }
 
-    header{
+    header {
         position: absolute;
         position: fixed;
-        
-
     }
 
     .preco-produto h2 {
@@ -585,14 +602,14 @@ a {
     MAIN {
         margin-top: 10px;
     }
-    
+
     .head label {
         display: block;
         z-index: 220;
-    
+
     }
 
-    #botao-menu:checked ~ .cabecalho{
+    #botao-menu:checked~.cabecalho {
         margin-left: 0%;
     }
 
@@ -604,8 +621,6 @@ a {
         height: 350px;
         width: 155px;
         display: flex;
-            
-        
     }
 
     .logo {
@@ -615,22 +630,21 @@ a {
         top: -0%;
     }
 
-    .cabecalho input { 
+    .cabecalho input {
         position: absolute;
         margin-top: -222px;
         margin-left: 69px;
-
     }
 
     .search {
         zoom: 80%;
         left: 5px;
     }
-    
-    .search:focus{
+
+    .search:focus {
         margin-top: -140px;
         width: 190px;
-        
+
     }
 
     #menu {
@@ -641,17 +655,15 @@ a {
         display: block;
     }
 
-    ul{
+    ul {
         margin-top: 80px;
         margin-left: 10px;
         display: grid;
         gap: 20px;
     }
 
-
-
     .container-produto {
-        
+
         background-color: rgb(255, 255, 255);
         display: flex;
         flex-wrap: wrap;
@@ -661,7 +673,7 @@ a {
         border-radius: 5px;
         justify-content: space-around;
         width: 300px;
-    
+
     }
 
 
@@ -671,20 +683,20 @@ a {
         width: 220px;
         height: 240px;
     }
-    
+
     .rodape {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
     }
 
-    
 
-    .card-aluno{
+
+    .card-aluno {
         font-size: 15px;
     }
 
-    .card-aluno h3{
+    .card-aluno h3 {
         font-size: 10px;
     }
 
@@ -700,11 +712,9 @@ a {
 
     }
 
-    header{
+    header {
         position: absolute;
         position: fixed;
-        
-
     }
 
     .preco-produto h2 {
@@ -714,14 +724,14 @@ a {
     MAIN {
         margin-top: 10px;
     }
-    
+
     .head label {
         display: block;
         z-index: 220;
-    
+
     }
 
-    #botao-menu:checked ~ .cabecalho{
+    #botao-menu:checked~.cabecalho {
         margin-left: 0%;
     }
 
@@ -733,8 +743,6 @@ a {
         height: 350px;
         width: 155px;
         display: flex;
-            
-        
     }
 
     .logo {
@@ -744,7 +752,7 @@ a {
         top: -0%;
     }
 
-    .cabecalho input { 
+    .cabecalho input {
         position: absolute;
         margin-top: -222px;
         margin-left: 69px;
@@ -755,11 +763,11 @@ a {
         zoom: 80%;
         left: 4px;
     }
-    
-    .search:focus{
+
+    .search:focus {
         margin-top: -140px;
         width: 190px;
-        
+
     }
 
     #menu {
@@ -770,17 +778,15 @@ a {
         display: block;
     }
 
-    ul{
+    ul {
         margin-top: 80px;
         margin-left: 10px;
         display: grid;
         gap: 20px;
     }
 
-
-
     .container-produto {
-        
+
         background-color: rgb(255, 255, 255);
         display: flex;
         flex-wrap: wrap;
@@ -790,7 +796,7 @@ a {
         border-radius: 5px;
         justify-content: space-around;
         width: 280px;
-    
+
     }
 
 
@@ -800,20 +806,17 @@ a {
         width: 200px;
         height: 216px;
     }
-    
+
     .rodape {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
     }
 
-    
-
-    .card-aluno{
+    .card-aluno {
         font-size: 15px;
     }
 
-    .card-aluno h3{
+    .card-aluno h3 {
         font-size: 10px;
     }
-
