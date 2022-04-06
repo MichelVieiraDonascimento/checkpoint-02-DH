@@ -219,7 +219,7 @@ body {
     width: 240px;
     opacity: 1;
     border-radius: 4px;
-    box-shadow: 0 0 0 2px #12c8ff;
+    box-shadow: 0 0 0 2px orangered;
     outline: none;
     cursor: auto;
 }
