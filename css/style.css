@@ -9,6 +9,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+nav li a:hover {
+    box-shadow:  0 0.1em orangered;
+}
+
 body {
     background-color: white;
     height: 100vh;

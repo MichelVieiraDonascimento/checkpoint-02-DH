@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+nav li a:hover {
+    box-shadow:  0 0.1em orangered;
+}
+
 body {
     background-color: rgb(196, 196, 196);
 }
