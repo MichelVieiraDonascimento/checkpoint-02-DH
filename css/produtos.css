@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+nav li a:hover {
+    box-shadow:  0 0.1em orangered;
+}
+
 body {
     background-color: rgb(196, 196, 196);
 }
@@ -219,7 +223,7 @@ body {
     width: 240px;
     opacity: 1;
     border-radius: 4px;
-    box-shadow: 0 0 0 2px #12c8ff;
+    box-shadow: 0 0 0 2px orangered;
     outline: none;
     cursor: auto;
 }
