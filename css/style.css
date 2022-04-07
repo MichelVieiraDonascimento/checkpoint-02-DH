@@ -470,6 +470,12 @@ main {
             height: 80px;
         }
 
+        .botao{
+            width: 250px;
+            height: 35px;
+        }
+    
+
         .modal {
             zoom: 0.55;
         }
@@ -605,6 +611,12 @@ main {
     
         }
 
+        .botao{
+            width: 250px;
+            height: 35px;
+        }
+    
+
         .fechar{
             height: 45px;
             left: 455px;
@@ -726,6 +738,12 @@ main {
             zoom: 0.55;
     
         }
+
+        .botao{
+            width: 250px;
+            height: 35px;
+        }
+    
 
         .fechar{
             height: 45px;
