@@ -10,7 +10,7 @@
 }
 
 nav li a:hover {
-    box-shadow:  0 0.1em orangered;
+    box-shadow: 0 0.1em orangered;
 }
 
 body {
@@ -448,7 +448,7 @@ main {
 
     }
 
-    .botao{
+    .botao {
         width: 250px;
         height: 35px;
     }
@@ -462,407 +462,409 @@ main {
         width: 250px;
         height: 450px;
     }
+}
 
 
-    @media (max-width: 430px) {
-        .botao-dark-mode button {
-            width: 40px;
-            height: 80px;
-        }
 
-        .botao{
-            width: 250px;
-            height: 35px;
-        }
-    
+@media (max-width: 430px) {
+    .botao-dark-mode button {
+        width: 40px;
+        height: 80px;
+    }
 
-        .modal {
-            zoom: 0.55;
-        }
-
-        .modal-2 {
-            zoom: 0.55;
-    
-        }
-
-        .fechar{
-            height: 45px;
-            left: 455px;
-            width: 45px;
-            top: -25px;
-            text-align: center;
-            font-size: 30px;
-            padding-top: 5px;
-
-        }
-
-        header {
-            position: fixed;
-        }
-
-        header label {
-            display: block;
-            z-index: 22;
-        }
-
-        #botao-menu:checked~.cabecalho {
-            margin-left: 0%;
-        }
-
-        .cabecalho {
-            margin-top: -72%;
-            margin-left: -100%;
-            transition: all 1s;
-            background-color: #302f2f;
-            height: 350px;
-            width: 155px;
-            display: flex;
-        }
-
-        .logo {
-            width: 77px;
-            margin-left: 50%;
-            position: absolute;
-            top: -0%;
-        }
-
-        .cabecalho input {
-            position: absolute;
-            margin-top: -345px;
-            margin-left: 69px;
-        }
-
-        .search {
-            left: 4px;
-            zoom: 80%;
-        }
-
-        .search:focus {
-            left: -67px;
-            margin-top: -260px;
-            width: 190px;
-        }
-
-        #menu {
-            position: relative;
-        }
-
-        #menu ul li {
-            display: block;
-        }
-
-        .menu-top {
-            margin-top: 100px;
-        }
-
-        ul {
-            display: grid;
-            gap: 20px;
-        }
-
-        .conteudo-banner h1 {
-            font-size: 25px;
-        }
-
-        .conteudo-banner h2 {
-            font-weight: 300;
-            font-size: 10px;
-            margin-bottom: 25px;
-        }
-
-        .container-banner {
-            background-position: -80px;
-            height: 500px;
-        }
-
-        .lista-produtos img {
-            height: 320px;
-        }
-
-        .lista-produtos {
-            width: 320px;
-            height: 500px;
-        }
-
-        .rodape {
-            display: flex;
-            flex-wrap: wrap;
-            text-align: center;
-        }
-
-        .card-aluno {
-            font-size: 15px;
-        }
-
-        .card-aluno h3 {
-            font-size: 10px;
-        }
+    .botao {
+        width: 250px;
+        height: 35px;
     }
 
 
-    @media (max-width: 376px) {
-
-        .modal {
-            zoom: 0.55;
-        }
-
-        .modal-2 {
-            zoom: 0.55;
-    
-        }
-
-        .botao{
-            width: 250px;
-            height: 35px;
-        }
-    
-
-        .fechar{
-            height: 45px;
-            left: 455px;
-            width: 45px;
-            top: -25px;
-            text-align: center;
-            font-size: 30px;
-            padding-top: 5px;
-
-        }
-
-        header {
-            position: fixed;
-        }
-
-        label {
-            display: block;
-            z-index: 22;
-        }
-
-        #botao-menu:checked~.cabecalho {
-            margin-left: 0%;
-        }
-
-        .cabecalho {
-            margin-top: -72%;
-            margin-left: -100%;
-            transition: all 1s;
-            background-color: #302f2f;
-            height: 350px;
-            width: 155px;
-            display: flex;
-        }
-
-        .logo {
-            width: 77px;
-            margin-left: 50%;
-            position: absolute;
-            top: -0%;
-        }
-
-        .cabecalho input {
-            position: absolute;
-            margin-top: -345px;
-            margin-left: 69px;
-        }
-
-        .search {
-            zoom: 80%;
-        }
-
-        .search:focus {
-            margin-top: -260px;
-            width: 190px;
-        }
-
-        #menu {
-            position: relative;
-        }
-
-        #menu ul li {
-            display: block;
-        }
-
-        .menu-top {
-            margin-top: 100px;
-        }
-
-        ul {
-            display: grid;
-            gap: 20px;
-        }
-
-        .conteudo-banner h1 {
-            font-size: 25px;
-        }
-
-        .conteudo-banner h2 {
-            font-weight: 300;
-            font-size: 10px;
-            margin-bottom: 25px;
-        }
-
-        .container-banner {
-            background-position: -80px;
-            height: 500px;
-        }
-
-        .lista-produtos img {
-            height: 320px;
-        }
-
-        .lista-produtos {
-            width: 320px;
-            height: 500px;
-        }
-
-        .rodape {
-            display: flex;
-            flex-wrap: wrap;
-            text-align: center;
-        }
-        .card-aluno {
-            font-size: 15px;
-        }
-
-        .card-aluno h3 {
-            font-size: 10px;
-        }
+    .modal {
+        zoom: 0.55;
     }
 
-    @media (max-width: 321px) {
+    .modal-2 {
+        zoom: 0.55;
 
-        .modal {
-            zoom: 0.55;
-        }
+    }
 
-        .modal-2 {
-            zoom: 0.55;
-    
-        }
+    .fechar {
+        height: 45px;
+        left: 455px;
+        width: 45px;
+        top: -25px;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
 
-        .botao{
-            width: 250px;
-            height: 35px;
-        }
-    
+    }
 
-        .fechar{
-            height: 45px;
-            left: 455px;
-            width: 45px;
-            top: -25px;
-            text-align: center;
-            font-size: 30px;
-            padding-top: 5px;
+    header {
+        position: fixed;
+    }
 
-        }
+    header label {
+        display: block;
+        z-index: 22;
+    }
 
-        header {
-            position: fixed;
-        }
+    #botao-menu:checked~.cabecalho {
+        margin-left: 0%;
+    }
 
-        label {
-            display: block;
-            z-index: 22;
-        }
+    .cabecalho {
+        margin-top: -72%;
+        margin-left: -100%;
+        transition: all 1s;
+        background-color: #302f2f;
+        height: 350px;
+        width: 155px;
+        display: flex;
+    }
 
-        #botao-menu:checked~.cabecalho {
-            margin-left: 0%;
-        }
+    .logo {
+        width: 77px;
+        margin-left: 50%;
+        position: absolute;
+        top: -0%;
+    }
 
-        .cabecalho {
-            margin-top: -72%;
-            margin-left: -100%;
-            transition: all 1s;
-            background-color: #302f2f;
-            height: 350px;
-            width: 155px;
-            display: flex;
-        }
+    .cabecalho input {
+        position: absolute;
+        margin-top: -345px;
+        margin-left: 69px;
+    }
 
-        .logo {
-            width: 77px;
-            margin-left: 50%;
-            position: absolute;
-            top: -0%;
-        }
+    .search {
+        left: 4px;
+        zoom: 80%;
+    }
 
-        .cabecalho input {
-            position: absolute;
-            margin-top: -345px;
-            margin-left: 69px;
-        }
+    .search:focus {
+        left: -67px;
+        margin-top: -260px;
+        width: 190px;
+    }
 
-        .search {
-            zoom: 80%;
-        }
+    #menu {
+        position: relative;
+    }
 
-        .search:focus {
-            margin-top: -260px;
-            width: 190px;
-        }
+    #menu ul li {
+        display: block;
+    }
 
-        #menu {
-            position: relative;
-        }
+    .menu-top {
+        margin-top: 100px;
+    }
 
-        #menu ul li {
-            display: block;
-        }
+    ul {
+        display: grid;
+        gap: 20px;
+    }
 
-        .menu-top {
-            margin-top: 100px;
-        }
+    .conteudo-banner h1 {
+        font-size: 25px;
+    }
 
-        ul {
-            display: grid;
-            gap: 20px;
-        }
+    .conteudo-banner h2 {
+        font-weight: 300;
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
 
-        .conteudo-banner h1 {
-            font-size: 25px;
-        }
+    .container-banner {
+        background-position: -80px;
+        height: 500px;
+    }
 
-        .conteudo-banner h2 {
-            font-weight: 300;
-            font-size: 10px;
-            margin-bottom: 25px;
-        }
+    .lista-produtos img {
+        height: 320px;
+    }
 
-        .container-banner {
-            background-position: -80px;
-            height: 500px;
-        }
+    .lista-produtos {
+        width: 320px;
+        height: 500px;
+    }
 
-        .lista-produtos img {
-            height: 250px;
-        }
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
 
-        .lista-produtos {
-            width: 250px;
-            height: 450px;
-        }
+    .card-aluno {
+        font-size: 15px;
+    }
 
-        .rodape {
-            display: flex;
-            flex-wrap: wrap;
-            text-align: center;
-        }
-
-        .card-aluno {
-            font-size: 15px;
-        }
-
-        .card-aluno h3 {
-            font-size: 10px;
-        }
+    .card-aluno h3 {
+        font-size: 10px;
     }
 }
 
 
-/* ALUNOS:
+@media (max-width: 376px) {
 
-Michel Vieira Do Nascimento.
-Matheus Ribeiro Reis.
-Henrique Vilela.
+    .modal {
+        zoom: 0.55;
+    }
 
-/*
+    .modal-2 {
+        zoom: 0.55;
+
+    }
+
+    .botao {
+        width: 250px;
+        height: 35px;
+    }
+
+
+    .fechar {
+        height: 45px;
+        left: 455px;
+        width: 45px;
+        top: -25px;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+
+    }
+
+    header {
+        position: fixed;
+    }
+
+    label {
+        display: block;
+        z-index: 22;
+    }
+
+    #botao-menu:checked~.cabecalho {
+        margin-left: 0%;
+    }
+
+    .cabecalho {
+        margin-top: -72%;
+        margin-left: -100%;
+        transition: all 1s;
+        background-color: #302f2f;
+        height: 350px;
+        width: 155px;
+        display: flex;
+    }
+
+    .logo {
+        width: 77px;
+        margin-left: 50%;
+        position: absolute;
+        top: -0%;
+    }
+
+    .cabecalho input {
+        position: absolute;
+        margin-top: -345px;
+        margin-left: 69px;
+    }
+
+    .search {
+        zoom: 80%;
+    }
+
+    .search:focus {
+        margin-top: -260px;
+        width: 190px;
+    }
+
+    #menu {
+        position: relative;
+    }
+
+    #menu ul li {
+        display: block;
+    }
+
+    .menu-top {
+        margin-top: 100px;
+    }
+
+    ul {
+        display: grid;
+        gap: 20px;
+    }
+
+    .conteudo-banner h1 {
+        font-size: 25px;
+    }
+
+    .conteudo-banner h2 {
+        font-weight: 300;
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+
+    .container-banner {
+        background-position: -80px;
+        height: 500px;
+    }
+
+    .lista-produtos img {
+        height: 320px;
+    }
+
+    .lista-produtos {
+        width: 320px;
+        height: 500px;
+    }
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .card-aluno {
+        font-size: 15px;
+    }
+
+    .card-aluno h3 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 321px) {
+
+    .modal {
+        zoom: 0.55;
+    }
+
+    .modal-2 {
+        zoom: 0.55;
+
+    }
+
+    .botao {
+        width: 250px;
+        height: 35px;
+    }
+
+
+    .fechar {
+        height: 45px;
+        left: 455px;
+        width: 45px;
+        top: -25px;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+
+    }
+
+    header {
+        position: fixed;
+    }
+
+    label {
+        display: block;
+        z-index: 22;
+    }
+
+    #botao-menu:checked~.cabecalho {
+        margin-left: 0%;
+    }
+
+    .cabecalho {
+        margin-top: -72%;
+        margin-left: -100%;
+        transition: all 1s;
+        background-color: #302f2f;
+        height: 350px;
+        width: 155px;
+        display: flex;
+    }
+
+    .logo {
+        width: 77px;
+        margin-left: 50%;
+        position: absolute;
+        top: -0%;
+    }
+
+    .cabecalho input {
+        position: absolute;
+        margin-top: -345px;
+        margin-left: 69px;
+    }
+
+    .search {
+        zoom: 80%;
+    }
+
+    .search:focus {
+        margin-top: -260px;
+        width: 190px;
+    }
+
+    #menu {
+        position: relative;
+    }
+
+    #menu ul li {
+        display: block;
+    }
+
+    .menu-top {
+        margin-top: 100px;
+    }
+
+    ul {
+        display: grid;
+        gap: 20px;
+    }
+
+    .conteudo-banner h1 {
+        font-size: 25px;
+    }
+
+    .conteudo-banner h2 {
+        font-weight: 300;
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+
+    .container-banner {
+        background-position: -80px;
+        height: 500px;
+    }
+
+    .lista-produtos img {
+        height: 250px;
+    }
+
+    .lista-produtos {
+        width: 250px;
+        height: 450px;
+    }
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .card-aluno {
+        font-size: 15px;
+    }
+
+    .card-aluno h3 {
+        font-size: 10px;
+    }
+
+    /* ALUNOS:
+
+            Michel Vieira Do Nascimento.
+            Matheus Ribeiro Reis.
+            Henrique Vilela.
+
+            /*
+        }
+    }
